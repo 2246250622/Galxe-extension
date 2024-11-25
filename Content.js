@@ -120,5 +120,5 @@
         }
 
         processElements();
-    }, 7000); // 7 seconds delay
+    }, 6000); // 6 seconds delay
 })();
