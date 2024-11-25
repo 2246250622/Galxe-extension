@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Galxe Auto Complete Tasks",
+    "version": "1.0",
+    "description": "Automates various tasks on the Galxe platform.",
+    "permissions": ["scripting", "activeTab"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://app.galxe.com/quest/*/*"],
+            "js": ["content.js"]
+        }
+    ],
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    }
+}
