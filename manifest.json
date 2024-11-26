@@ -3,7 +3,7 @@
     "name": "Galxe Auto Complete Tasks",
     "version": "1.0",
     "description": "Automates various tasks on the Galxe platform.",
-    "permissions": ["scripting", "activeTab"],
+    "permissions": [],
     "background": {
         "service_worker": "background.js"
     },
